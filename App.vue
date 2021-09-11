@@ -9,11 +9,13 @@ import { createStackNavigator } from "react-navigation-stack";
 import HomeScreen from "./screens/HomeScreen.vue";
 import LoginScreen from "./screens/LoginScreen.vue";
 import RegisterScreen from "./screens/RegisterScreen.vue";
+import AskadoctorScreen from "./screens/AskadoctorScreen.vue";
 const StackNavigator = createStackNavigator(
   {
     Home:     HomeScreen,
     Login:    LoginScreen,
-    Register: RegisterScreen
+    Register: RegisterScreen,
+    Askadoctor: AskadoctorScreen
   },
   {
     initialRouteName: 'Home',

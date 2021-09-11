@@ -102,7 +102,6 @@
   text-align: center;
 }
 .scroll{
-   margin-top: 30px;
    background-color: rgb(242, 170, 168);
 }
 .box1{

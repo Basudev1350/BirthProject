@@ -7,8 +7,8 @@
               <text-input class="input-text2" placeholder="Password"></text-input>
       </view> 
       <view class="box2">
-      <touchable-opacity class="button">
-        <text class="button-text">Submit</text>
+      <touchable-opacity class="button" @press="goToAskadoctorScreen">
+        <text class="button-text" @press="goToAskadoctorScreen">Submit</text>
      </touchable-opacity>
       </view> 
        <text class="forgot-user">Forgot your password?</text>
@@ -76,6 +76,9 @@
     methods: {
     goToRegisterScreen() {
       this.navigation.navigate("Register");
+    },
+    goToAskadoctorScreen(){
+        this.navigation.navigate("Askadoctor");
     }
   },
       data: function() {
