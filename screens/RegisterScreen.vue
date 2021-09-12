@@ -40,31 +40,20 @@
   font-size: 18px;
   margin-right: 80px;
 }
-.input-text{
-  background-color: #fff;
-  width: 120px;
-  padding: 10px;
-  border-radius: 5px;
-}
+
 .box2{
    align-items: center;
   justify-content: center;
 }
 .input-text1{
   background-color: #fff;
-  width: 185px;
+  width: 160px;
   padding: 10px;
   border-radius: 5px;
 }
 .input-text2{
   background-color: #fff;
-  width: 380px;
-  padding: 10px;
-  border-radius: 10px;
-}
-.input-text3{
-  background-color: #fff;
-  width: 90px;
+  width: 330px;
   padding: 10px;
   border-radius: 10px;
 }

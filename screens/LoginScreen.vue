@@ -26,7 +26,7 @@
 .input-text2{
   background-color: #fff;
   margin-top: 25px;
-  width: 380px;
+  width: 335px;
   padding: 10px;
   border-radius: 10px;
 }

@@ -56,7 +56,7 @@
 .box1{
   border-radius: 20px;
   margin-top: 10px;
-  width:400px ;
+  width:350px ;
   height: 200px;
   background-color: rgb(97, 13, 13);
   padding: 30px; 
