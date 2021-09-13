@@ -40,20 +40,25 @@
   font-size: 18px;
   margin-right: 80px;
 }
-
+.input-text{
+  background-color: #fff;
+  width: 120px;
+  padding: 10px;
+  border-radius: 5px;
+}
 .box2{
    align-items: center;
   justify-content: center;
 }
 .input-text1{
   background-color: #fff;
-  width: 160px;
+  width: 47%;
   padding: 10px;
   border-radius: 5px;
 }
 .input-text2{
   background-color: #fff;
-  width: 330px;
+  width: 100%;
   padding: 10px;
   border-radius: 10px;
 }
@@ -115,8 +120,8 @@
 </style>
  <script>
  export default {
-     name:"RegisterScreen",
-     data: function() {
+      name:'RegisterScreen',
+      data: function() {
             return {
                 value: false,
             };

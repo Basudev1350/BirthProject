@@ -11,10 +11,8 @@
         <text class="button-text" @press="goToAskadoctorScreen">Submit</text>
      </touchable-opacity>
       </view> 
-       <text class="forgot-user">Forgot your password?</text>
-        <touchableOpacity class="btn" @press="goToRegisterScreen">
+       <text class="forgot-user" >Forgot your password?</text>
        <text class="forgot-user" @press="goToRegisterScreen">New User?</text>
-        </touchableOpacity>
   </view>
  </scroll-view>
 </template>
@@ -26,7 +24,7 @@
 .input-text2{
   background-color: #fff;
   margin-top: 25px;
-  width: 335px;
+  width: 100%;
   padding: 10px;
   border-radius: 10px;
 }
@@ -59,6 +57,7 @@
   text-align: center;
 }
 .scroll{
+
    background-color: rgb(242, 170, 168);
 }
 .box1{
@@ -67,7 +66,7 @@
 </style>
  <script>
  export default {
-    name:"LoginScreen",
+   name:"LoginScreen",
     props: {
     navigation: {
       type: Object
