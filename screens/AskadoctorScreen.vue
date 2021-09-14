@@ -85,6 +85,7 @@
   font-size: 30px;
   text-align: center;
    margin-top: 15px;
+   font-weight: bold;
 }
 .button{
   background-color:rgb(97, 13, 13); 
@@ -115,6 +116,7 @@
   font-size: 20px;
   margin-top: 20px;
   margin-left: 20px;
+  font-weight: bold;
   color:rgb(97, 13, 13);;
 }
 .box-sub-font{

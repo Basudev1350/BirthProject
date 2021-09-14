@@ -4,8 +4,9 @@
           <view class="box12">
           <text class="box-font">Ask a doctor</text>
            <touchableOpacity class="btn" @press="goToHomeScreen">
-           <text class="text" @press="goToHomeScreen">Book Now</text>
+           <text class="text" @press="goToHomeScreen" >Book Now</text>
           </touchableOpacity>
+           
        </view>
        <view class="box2">
           <text class="box-font">Rs: 250</text>

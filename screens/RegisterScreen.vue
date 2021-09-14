@@ -2,6 +2,7 @@
 <scroll-view class="scroll">
    <text class="heading">Register</text>
   <view class="container"> 
+    
     <view class="box1">
          <text-input class="input-text1" placeholder="First Name"> </text-input>
          <text-input class="input-text1" placeholder="Last Name"></text-input>
@@ -31,6 +32,7 @@
         <text class="button-text">Submit</text>
      </touchable-opacity>
       </view> 
+   
   </view>
  </scroll-view>
 </template>
@@ -119,6 +121,7 @@
 }
 </style>
  <script>
+ 
  export default {
       name:'RegisterScreen',
       data: function() {
